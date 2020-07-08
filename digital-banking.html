@@ -3,125 +3,196 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style-nw.css"  type="text/css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style-nw.css" type="text/css" />
     <title>Digital Banking</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-sm navbar-light">
         <a class="navbar-brand" href="index.html">
-            <h1 id="title">go digital</h1>
+          <h1 id="title">go digital</h1>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
 
-<!-- Add collapsible menu with dropdown options under tutorials to connect to relevant pages keeping menu clean -->
+        <!-- Add collapsible menu with dropdown options under tutorials to connect to relevant pages keeping menu clean -->
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class ="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Tutorials
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="sharing.html">Send a picture</a>
-                        <a class="dropdown-item active" href="digital-banking.html">Digital banking</a>
-                        <a class="dropdown-item" href="vidconf.html">Video calls</a>
-                        <a class="dropdown-item" href="online-security.html">Online Security</a>
-                        <a class="dropdown-item" href="#">Setting up email</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Tutorials
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="sharing.html">Send a picture</a>
+                <a class="dropdown-item active" href="digital-banking.html"
+                  >Digital banking</a
+                >
+                <a class="dropdown-item" href="vidconf.html">Video calls</a>
+                <a class="dropdown-item" href="online-security.html"
+                  >Online Security</a
+                >
+                <a class="dropdown-item" href="#">Setting up email</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
 
     <main>
-      <h1 id="pagetitle">Digital Banking</h1>
-      <div class="tutorial-image"></div>
-      <section class="overview">
-        <h2>What is it?</h2>
-        <p>
-          This section will explain how to get started with online banking.
-        </p>
-      </section>
-      <section class="overview">
-        <h2>Why might you need to know this?</h2>
-        <p>
-          So you have the possibility to fullfil most (if not all) your banking needs from anywhere.
-        </p>
-      </section>
-      <section class="overview">
-        <h2>What will you need?</h2>
-           <ul>
-                <li>A smartphone, or tablet or computer.</li>
-                <li>Your device set up with internet access.</li>
-            </ul>
-      </section>
-      <section class="overview">
-        <h2>What will you achieve</h2>
-        <p>
-          You will be able to login to the online services provided by your bank.
-        </p>
-      </section>
+      <div class="tutorial-image" id="tutorial-image-banking">
+        <h1>Digital Banking</h1>
+      </div>
+      <div class="overview">
+        <section class="overview-item">
+          <h2>What is it?</h2>
+          <p>
+            This section will explain how to get started with online banking.
+          </p>
+        </section>
+        <section class="overview-item">
+          <h2>Why might you need to know this?</h2>
+          <p>
+            So you have the possibility to fullfil most (if not all) your
+            banking needs from anywhere.
+          </p>
+        </section>
+        <section class="overview-item">
+          <h2>What will you need?</h2>
+          <ul>
+            <li>A smartphone, or tablet or computer.</li>
+            <li>Your device set up with internet access.</li>
+          </ul>
+        </section>
+        <section class="overview-item">
+          <h2>What will you achieve</h2>
+          <p>
+            You will be able to login to the online services provided by your
+            bank.
+          </p>
+        </section>
+      </div>
     </main>
     <article id="how-to-do-it">
       <h2>How to do it</h2>
       <!-- optional image/video -->
-      <div class="media">
-        <img src="images/digital-banking.jpeg" alt="Image of an elderly couple doing online banking" height="300px">
-      </div>
-      
+      <!-- <div class="media">
+        <img
+          src="images/digital-banking.jpeg"
+          alt="Image of an elderly couple doing online banking"
+          height="300px"
+        />
+      </div> -->
+      <p>
+        If commuting is feasible for you, you can visit your local branch to ask
+        for your bank account to be registered with online services.
+      </p>
       <!-- list of steps -->
-        <ol>
-            <li>
-                <p>If commuting is feasible for you, you can visit your local branch to ask for your bank account to be registered with online services.</p>
-            </li>
-            <li>If you are registering online, open the internet brwoser on your mobile or computer.</li>
-            <li>In your browser's search field, enter your bank's name and press/click "search" or "enter". </li> 
-            <li>Register your bank account (you will need your details) with your bank's online services</li>
-                <p>A demonstration can be seen in the video example below:</p>
-                    <iframe src="https://www.youtube.com/watch?v=hl5wOZTc1Dg" height="300" frameborder="0">
-                        <p>Your browser does not support iframes.</p>
-                    </iframe>
-        </ol>
+      <ol>
+        <li>
+          If you are registering online, open the internet brwoser on your
+          mobile or computer.
+        </li>
+        <li>
+          In your browser's search field, enter your bank's name and press/click
+          "search" or "enter".
+        </li>
+        <li>
+          Register your bank account (you will need your details) with your
+          bank's online services
+        </li>
+      </ol>
+      <p>A demonstration can be seen in the video example below:</p>
+      <iframe
+        src="https://www.youtube.com/watch?v=hl5wOZTc1Dg"
+        height="300"
+        frameborder="0"
+      >
+        <p>Your browser does not support iframes.</p>
+      </iframe>
     </article>
-    <section>
+    <section id="additional-info">
       <div class="more-info">
         <h3>Find out more about this topic</h3>
         <p>
-          Once you can access your account online, there is a multitude of operations you can perform:
+          Once you can access your account online, there is a multitude of
+          operations you can perform:
         </p>
-          <ul>
-            <li>Verify your account balance.</li>
-            <li>Transfer money between your accounts.</li>
-            <li>Pay your bills.</li>
-            <li>And so much more.</li>
-          </ul>
-        
+
+        <ul>
+          <li>Verify your account balance.</li>
+          <li>Transfer money between your accounts.</li>
+          <li>Pay your bills.</li>
+          <li>And so much more.</li>
+        </ul>
       </div>
       <div class="more-topics">
         <h3>Other topics to check out</h3>
         <p>
-          As an example you can watch the video below to see how to make payments.
+          As an example you can watch the video below to see how to make
+          payments.
         </p>
-        <iframe src="https://www.youtube.com/watch?v=nP2SuWH6VT8" height="300" frameborder="0"></iframe>
-            <p>Your browser does not support iframes.</p> 
+        <iframe
+          src="https://www.youtube.com/watch?v=nP2SuWH6VT8"
+          height="300"
+          frameborder="0"
+        ></iframe>
+        <p>Your browser does not support iframes.</p>
       </div>
     </section>
     <footer></footer>
 
     <!-- Bootstrap Javascript CDN for collapsible menu -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
