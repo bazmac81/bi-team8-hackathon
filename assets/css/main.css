@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    ;
+  }
+
+ html {background-color: 	rgb(206, 189, 163);
+  }
+
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poiret One', sans-serif;
+    color:rgb(46, 99, 115);
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 2%;
+}
+
+
+
+h2 {
+    font-size: 1.5rem;
+}
+
+header, footer {
+    background-color: #2e6373;
+    color: #d6b6a9 ;
+}
+
+
+h1 {
+    color: #d6b6a9;
+}
+
+
+.active  {
+    background-color: #2e6373 !important;
+ }
+
+a {
+    text-decoration: none; 
+    color: #c29250     ;
+
+}
+
+a:hover {
+    text-decoration: none; 
+    color: #745222     ;
+}
+
+a:visited {
+    text-decoration: none; 
+    color: #c29250     ;
+}
