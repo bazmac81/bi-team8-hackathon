@@ -4,20 +4,48 @@
     margin: 0;
     padding: 0;
     border: 0;  
+    ;
   }
 
-  body {
-    font-family: sans-serif;
-    color:#9e7c73;
+ html {background-color: 	rgb(206, 189, 163);
   }
+
 
 h1, h2, h3 {
     font-family: 'Poiret One', sans-serif;
-    color:#195E83
+    color:rgb(46, 99, 115);
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 2%;
+}
+
+h2, h3 {
+    font-family: 'Poiret One', sans-serif;
+    color:rgb(46, 99, 115);
+    font-size: 200%;
+
 }
 
 
-#header-image {
-    height: 10px;
+header {
+    height: 10%;
+    background-color: rgb(194, 146, 80);
 }
+
+/* #header-image {
+    height: 200px;
+    width: 100%;
+    background: url("/assets/homepageheader.jpg") no-repeat center center ;
+  } */
+
+
+    
+
+body {
+    font-family: sans-serif;
+    color:darkslategrey;
+    margin: 10px;
+    padding: 2%;
+  }
+
 
