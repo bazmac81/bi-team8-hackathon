@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;  
+  }
+
+  body {
+    font-family: sans-serif;
+    color:#9e7c73;
+  }
+
+h1, h2, h3 {
+    font-family: 'Poiret One', sans-serif;
+    color:#195E83
+}
+
+
+#header-image {
+    height: 10px;
+}
+
