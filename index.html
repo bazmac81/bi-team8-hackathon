@@ -3,26 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <title>Title</title>
   </head>
+
   <body>
     <header>
-      <h1 id="title">Bazzza Mac</h1>
-      <nav id="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li>Tutorials</li>
-          <li>About</li>
-        </ul>
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <h1 id="title">go digital</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+
+<!-- Add collapsible menu with dropdown options under tutorials to connect to relevant pages keeping menu clean -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class ="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tutorials
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="sharing.html" class="dropdown-item">Send a picture</a>
+                        <a href="digital-banking.html" class="dropdown-item">Digital banking</a>
+                        <a href="vidconf.html" class="dropdown-item">Video calling</a>
+                        <a href="online-security.html" class="dropdown-item">Online Security</a>
+                        <a href="#" class="dropdown-item">Setting up email</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
       </nav>
     </header>
+
     <main>
         <div class="container">
             <div class="header-image">
                 <img src="assets/homepageheader.jpg" width="100%">
             </div>
             <section class="welcome">
-                <h1>Eoin</h1>
                 <h2>Welcome to <em>How to go Digital</em></h2>
                 <p>
                     During lockdown it has been more difficult to see and stay in touch with the people that your closest too. However technology is playing a huge part in helping people stay connected, even if they are unable to be in the same room.
@@ -80,5 +107,11 @@
             
         </div>
     </footer>
+
+    <!-- Bootstrap Javascript CDN for collapsible menu -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
   </body>
 </html>
