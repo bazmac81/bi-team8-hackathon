@@ -32,17 +32,17 @@ ol li {
 }
 
 #tutorial-image-security {
-  background: url('/assets/hacker.jpg') no-repeat center center;
-  background-size: 100% 100%;
+  background: url('/assets/hacker.jpg') no-repeat center center/cover;
+  /* background-size: 100% 100%; */
   width: 100%;
-  height: 50vw;
+  height: 40vw;
 }
 
 #tutorial-image-banking {
-  background: url('/assets/digital-banking.jpeg') no-repeat center center;
-  background-size: 100% 100%;
+  background: url('/assets/digital-banking.jpeg') no-repeat center center/cover;
+  /* background-size: 100% 100%; */
   width: 100%;
-  height: 50vw;
+  height: 40vw;
 }
 
 .tutorial-image > h1 {
@@ -55,6 +55,10 @@ ol li {
 
 #tutorial-image-banking > h1 {
   color: black;
+}
+
+.content {
+  margin: 4rem 10vw;
 }
 
 .overview {
@@ -76,6 +80,11 @@ ol li {
 footer {
   height: 10vh;
   border-top: 2px solid black;
+}
+
+.header-image {
+  background: url('/assets/homepageheader.jpg') no-repeat center center/cover;
+  height: 40vw;
 }
 
 @media screen and (min-width: 500px) {
@@ -101,5 +110,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
   }
 }
