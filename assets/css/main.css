@@ -38,6 +38,9 @@ header, footer {
     color: #d6b6a9 ;
 }
 
+.list {
+    padding-left: 20px;
+}
 
 h1 {
     color: #d6b6a9;
