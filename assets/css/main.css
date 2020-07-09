@@ -14,16 +14,23 @@
 
 h1, h2, h3, h4, h5 {
     font-family: 'Poiret One', sans-serif;
-    color:rgb(46, 99, 115);
     text-transform: uppercase;
     font-weight: 900;
-    margin: 2%;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
 }
-
-
 
 h2 {
     font-size: 1.5rem;
+    color:rgb(46, 99, 115);
+   
+}
+
+
+h3 {
+    font-size: 1.5rem;
+    color:rgb(46, 99, 115);
+   
 }
 
 header, footer {
